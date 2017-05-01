@@ -37,7 +37,7 @@
 /*// Herotron Carousel //*/
 
 #herotron {
-  height: 36em;
+  height: 45em;
   background-image: url('../img/wood-2.jpg');
 }
 
@@ -45,7 +45,11 @@
   left: 50%;
   transform: translateX(-50%);
   height: 33em;
-  top: -1.9em;
+  top: 1.5em;
+}
+
+.carousel-indicators {
+  bottom: -1.15em;
 }
 
 .img-fluid {
