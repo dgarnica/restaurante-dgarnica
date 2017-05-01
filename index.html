@@ -10,62 +10,59 @@
 </head>
 
 <body>
-	<header id="herotron" class="container-fluid">
+	<header id="herotron">
 
 <!--=== Navigation ===-->
 
-		<nav>
-			<div class="nav navbar navbar-right">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-		</nav>
+		<div class="navbar">
+			<img src="img/name-01.png" alt="RESTAURANTE" class="responsive-img navbar-left"/>
+			<ul class="nav pull-right">
+				<a href="#" class="nav-link active-item">Home</a>
+				<a href="#" class="nav-link">Our Story</a>
+				<a href="#" class="nav-link">Review</a>
+				<a href="#" class="nav-link">Menu</a>
+				<a href="#" class="nav-link">Contact Us</a>
+			</ul>
+		</div>
 
 <!--== Carousel ==-->
-
-		<div id="carousel" class="carousel slide" data-ride="carousel">
+		<div id="hero-carousel" class="carousel slide" data-ride="carousel">
 
 		<!-- Carousel Indicators -->
 
 			<ol class="carousel-indicators">
-				<li data-target="#carousel" data-slide-to="0" class="active"></li>
-    		<li data-target="#carousel" data-slide-to="1"></li>
-    		<li data-target="#carousel" data-slide-to="2"></li>
+				<li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#hero-carousel" data-slide-to="1"></li>
+    		<li data-target="#hero-carousel" data-slide-to="2"></li>
 			</ol>
 
-			<div class="carousel-inner" role="listbox">
+			<div class="carousel-inner">
 
 		<!-- Carousel Items -->
 
-				<div class="carousel-item active">
+				<div class="item active">
 					<img src="img/logo-01.png" alt="First Slide (Logo)" class="d-block img-fluid" />
 				</div>
 
-				<div class="carousel-item">
-					<img src="..." alt="Second Slide" class="d-block img-fluid" />
+				<div class="item">
+					<img src="img/restaurant-2.jpg" alt="Second Slide" class="d-block img-fluid" />
 				</div>
 
-				<div class="carousel-item">
-					<img src="..." alt="Third Slide" class="d-block img-fluid" />
+				<div class="item">
+					<img src="img/farm-2.jpg" alt="Third Slide" class="d-block img-fluid" />
 				</div>
-
+			</div>
 		<!-- Carousel Controls -->
 
-				<a href="#carousel" role="button" data-slide="prev" class="carousel-control-prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<a href="#hero-carousel" role="button" data-slide="prev" class="left carousel-control">
+					<span class="glyphicon glyphicon-chevron-left"></span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a href="#carousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<a href="#hero-carousel" role="button" data-slide="next" class="right carousel-control">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
 	</header>
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

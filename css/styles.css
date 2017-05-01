@@ -1,13 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /*/// Header Navigation ///*/
 
+navbar {
+  height: 4em;
+  width: 100%;
+}
 
+.nav {
+  margin-top: 1em;
+}
+
+.nav-link {
+  margin-left: 0.5em;
+  padding: 1em 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.active-item {
+  background-color: #333;
+  background-color: rgba(45, 45, 45, 0.75);
+}
+
+.active-item:hover, .nav-link:hover {
+  text-decoration: none;
+  color: #ccc;
+}
 
 /*// Herotron Carousel //*/
+
 #herotron {
   height: 36em;
   background-image: url('../img/wood-2.jpg');
 }
 
-#carousel {
+#hero-carousel {
+  left: 50%;
+  transform: translateX(-50%);
+  height: 33em;
+  top: -1.9em;
+}
 
+.img-fluid {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5em;
+  max-width: 100%;
+  max-height: 28em;
 }
