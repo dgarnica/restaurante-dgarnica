@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700|Playfair+Display:900');
+
+/*// Reuseable //*/
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.light-text {
+  font-weight: lighter;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/*// Our Story Section //*/
+
+#our-story {
+  margin-top: 2em;
+}
+
+#our-story h1.lobster-text {
+  text-shadow: 1px 1px #a5a5a5;
+  font-size: 4.5em;
+}
+
+#our-story h3.raleway-text {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#year-watermark {
+  position: absolute;
+  z-index: 0;
+  right: 2em;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 8em;
+  color: #dddddd;
+  color: rgba(205, 205, 205, 0.4);
+}
