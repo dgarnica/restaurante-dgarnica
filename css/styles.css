@@ -147,8 +147,36 @@
   text-shadow: 1px 1px #121212;
   top: 0.5em;
 }
+
 #review-section>div>p {
   color: #fff;
   margin-top: 3em;
   font-size: 1.25em;
+}
+
+/* Menu Section*/
+
+#menu-section {
+  background-image: url('../img/black_linen.png');
+  background-size: contain;
+  background-position: center;
+}
+
+.food-item {
+  background-color: #fff;
+}
+
+.food-item img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1em;
+
+  max-height: 10em;
+  max-width: 10em;
+}
+
+.food-item p {
+  position: relative;
+  padding-bottom: 1em;
 }
