@@ -10,6 +10,10 @@
   color: #F8512F;
 }
 
+.white-text {
+  color: #fff;
+}
+
 .raleway-text {
   font-family: 'Raleway', sans-serif;
 }
@@ -160,23 +164,40 @@
   background-image: url('../img/black_linen.png');
   background-size: contain;
   background-position: center;
+  padding-bottom: 1.5em;
 }
+
+#menu-section h1 {
+  font-size: 3.5em;
+}
+
+/* Nav-Tab Styling */
+
+.nav-tabs>li>a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+  color: #F8512F;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li.active>a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #F8512F;
+}
+
+.nav-tabs.nav-justified a:hover, a:focus, a, .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+  border: none;
+}
+
+/* Food Item Tab Panel */
 
 .food-item {
   background-color: #fff;
+  padding: 1em 1em;
 }
 
 .food-item img {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 1em;
 
   max-height: 10em;
   max-width: 10em;
-}
-
-.food-item p {
-  position: relative;
-  padding-bottom: 1em;
 }
